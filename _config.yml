@@ -27,10 +27,20 @@ url: "https://ramwoolf.com" # the base hostname & protocol for your site, e.g. h
 twitter_username: ramwoolf
 github_username:  ramwoolf
 
+# Paginate
+paginate: 1
+paginate_path: "/pagination/page:num/"
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
+  - jekyll-paginate
+
+languages: ["ru", "en"]
+
+exclude_from_localizations: ["javascript", "images", "css"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
