@@ -1,2 +1,0 @@
-### Permalink
-Constant links
