@@ -4,3 +4,5 @@ global:
 pages:
   home: Home
   work: Work
+titles:
+  pagination: Pagination
