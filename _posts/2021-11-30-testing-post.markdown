@@ -15,6 +15,8 @@ int main(int argc, char const *argv[]) {
 }
 {% endhighlight %}
 
+{{site.url}}/images/wuppertal.jpg
+
 [Канал в Telegram][tg-channel]
 [Гитхаб][github]
 
