@@ -1,25 +1,33 @@
 ---
+layout: page
+title: "404: Page not found"
 permalink: /404.html
-layout: default
+
+redirect_from:
+  - /norobots/
+  - /assets/
+  - /posts/
+
+dynamic_title: true
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+{% include lang.html %}
 
-<div class="container">
-  <h1>404</h1>
+<div class="lead">
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  {%- capture _head_back -%}
+    <a href="{{ '/' | relative_url }}">{{ site.data.locales[lang].not_found.head_back }}</a>
+  {%- endcapture -%}
+
+  {%- capture _archives_page -%}
+    <a href="{{ 'archives' | relative_url }}">{{ site.data.locales[lang].not_found.archives_page }}</a>
+  {%- endcapture -%}
+
+  <p>{{site.data.locales[lang].not_found.statment }} :(</p>
+
+  <p>{{ site.data.locales[lang].not_found.hint_template
+    | replace: ':HEAD_BAK', _head_back
+    | replace: ':ARCHIVES_PAGE', _archives_page }}
+  </p>
+
 </div>
