@@ -27,7 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ramwoolf.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 timezone: Europe/Amsterdam
-lang: ru-RU The CDN endpoint for images.
+lang: ru-RU 
+# The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
