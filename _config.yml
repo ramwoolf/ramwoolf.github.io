@@ -22,7 +22,7 @@ title: Ramwoolf's blog
 tagline: Программирование и техника
 email: ramwoolf@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Личный опыт программирования и рассказы про всякиую технику, преимущественно железнодорожную
+  Личный опыт программирования и рассказы про всякую технику, преимущественно железнодорожную
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ramwoolf.com" # the base hostname & protocol for your site, e.g. http://example.com
 
