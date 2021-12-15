@@ -145,7 +145,7 @@ social:
     # - https://www.linkedin.com/in/username
 
 # Build settings
-theme: jekyll-theme-slate
+theme: jekyll-theme-chirpy
 
 # Prefer color scheme setting.
 #
