@@ -59,19 +59,19 @@ not_found:
 # ----- Posts related labels -----
 
 post:
-  published: 'вкл.'
+  published: 'запостил'
   updated: Обновилось
   timeago:
-    day: вчера
-    hour: час назад
-    minute: свежак
-    just_now: свежак
+    day: days ago
+    hour: hours ago
+    minute: minutes ago
+    just_now: just now
   words: слов
   pageview_measure: просмотров
   read_time:
     unit: мин.
     prompt: на чтение
-  relate_posts: Еще в таком же духе
+  relate_posts: Еще
   share: Поделиться
   button:
     next: Новее
