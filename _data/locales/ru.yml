@@ -1,0 +1,90 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Пост
+  category: Категория
+  tag: Тег
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Главная
+  categories: Категории
+  tags: Теги
+  archives: Архивы
+  about: Интро
+
+# the text displayed in the search bar & search results
+search:
+  hint: Искать
+  cancel: Отмена
+  no_results: Ничего не найдено :(
+
+panel:
+  lastmod: Недавнее
+  trending_tags: Популярные теги
+  toc: Контент
+
+#  The liquid date format › http://strftime.net/
+date_format:
+  tooltip: '%a, %e %b, %Y, %R'
+  post:
+    long: '%e %b, %Y'
+    short: '%e %b'
+    archive_month: '%B'
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Этот пост размещен под лицензией :LICENSE_NAME автором.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Некоторые права защищены.
+  verbose: >-
+    Except where otherwise noted, the blog posts on this site are licensed
+    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+
+meta: Powered by :PLATFORM with :THEME theme.
+
+not_found:
+  statment: Такой страницы не существует :(
+  hint_template: :HEAD_BAK поищи еще раз, или посмотри в архивах :ARCHIVES_PAGE.
+  head_back: На главную
+  archives_page: Архивы
+
+# ----- Posts related labels -----
+
+post:
+  published: 'вкл.'
+  updated: Обновилось
+  timeago:
+    day: вчера
+    hour: час назад
+    minute: свежак
+    just_now: свежак
+  words: слов
+  pageview_measure: просмотров
+  read_time:
+    unit: мин.
+    prompt: на чтение
+  relate_posts: Еще в таком же духе
+  share: Поделиться
+  button:
+    next: Новее
+    previous: Старше
+    copy_code:
+      succeed: Скопировано!
+    share_link:
+      title: Скопировать ссыль
+      succeed: Скопировано норм!
+  # pinned prompt of posts list on homepage
+  pin_prompt: Запинено
+
+# categories page
+categories:
+  category_measure: категории
+  post_measure: посты
