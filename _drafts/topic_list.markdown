@@ -2,7 +2,7 @@
 layout: post
 title:  "Topic List"
 date:   2022-01-18 00:20:17 +0100
-categories: topics 
+categories: topics
 ---
 
 ## Программирование
@@ -11,8 +11,8 @@ categories: topics
 * Порождение структуры проекта C++
 * Статические и динамические библиотеки на С++
 * Вызов С++ библиотек из других языков
+* rvalues и perfect forwarding
 
 ## Поезда
 
-* Музей в утрехте
-* Музей в Мюлузе
+* Nez Casse
