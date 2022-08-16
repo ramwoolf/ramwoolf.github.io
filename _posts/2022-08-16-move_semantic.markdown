@@ -171,5 +171,5 @@ std::cout << instance1.get_size() << "\n"; // так делать нельзя, 
 
 Здесь в примерах нет никакого выведения типов и, соответственно perfect forwarding'а. Так же предполагается, что запускается всего один поток, с многопоточностью там больше приседаний. Про это потом.
 
-Код примеров можно посмотреть [тут]()
+Код примеров можно посмотреть [тут](https://github.com/ramwoolf/ramwoolf.github.io/blob/main/code_samples/rvalues_descr.cpp)
 Ещё можно глянуть вот [этот](https://www.youtube.com/watch?v=zzkpTbJiFPM) доклад с C++ Russia 2019
