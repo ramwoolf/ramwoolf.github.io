@@ -26,8 +26,8 @@ description: >-                        # used by seo meta and the atom feed
   Личный опыт программирования и рассказы про всякую технику, преимущественно железнодорожную
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-# url: 'https://blog.ramwoolf.com'
-url: 'https://ramwoolf.github.io'
+url: 'https://blog.ramwoolf.com'
+# url: 'https://ramwoolf.github.io'
 
 github:
   username: ramwoolf             # change to your github username
